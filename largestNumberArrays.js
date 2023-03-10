@@ -23,10 +23,10 @@ const largestNumberArraysReduce=function(array){
 largestNumberArraysReduce([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
 
 
-// method three using map and Math.max
+// method three using map and Math.max with spread operator
 
 const largestNumberArraysMax=function(array){
     return array.map(subArray=>Math.max(...subArray));
 }
 
-clargestNumberArraysMax([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+largestNumberArraysMax([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
